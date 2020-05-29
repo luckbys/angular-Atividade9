@@ -4,7 +4,7 @@
 <form (ngSubmit)="salvar();formulario.resetForm()" #formulario="ngForm">
 	<div class="form-group mt-3">
 		<div class="form-group mt-4">
-			<label>Nome</label>
+			<label>Disciplina</label>
 			<input [(ngModel)]="disciplina.nome" class="form-control" name="nome" #nome="ngModel" required>
 			<div [hidden]="nome.valid || nome.pristine" class="alert alert-danger">
 				Nome é obrigatório
