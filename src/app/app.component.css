@@ -8,6 +8,21 @@ float: left;
 }
 footer {
   max-width: auto;
-  height: 80px;
-  background-color: #32ABC2;
+  height: 300px;
+  background-color: ;
+}
+
+# {
+  padding-left:30rem;
+}
+.parallax {
+  background-image: url("https://i.pinimg.com/originals/4f/2f/7d/4f2f7d2aa8582dcca07ca3eb600e922b.png");
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+label {
+  color: white
 }

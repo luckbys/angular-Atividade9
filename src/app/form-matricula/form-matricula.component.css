@@ -1,5 +1,11 @@
 footer {
   max-width: auto;
   height: 80px;
-  background-color: #32ABC2;
+  background-color:#0079D6;
+}
+label {
+  color: white
+}
+h5 {
+  color: white;
 }
